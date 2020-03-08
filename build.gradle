@@ -15,6 +15,7 @@ minecraft {
 }
 
 repositories {
+	mavenLocal()
 	maven { url "https://maven.fabricmc.net/io/github/prospector/modmenu/ModMenu/" }
  	maven {
     	name = "grondag"
